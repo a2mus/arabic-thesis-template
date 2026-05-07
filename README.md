@@ -1,0 +1,1 @@
+# Arabic Thesis Template\n\nTemplate repository for generating Arabic RTL academic documents (.docx) and presentations (.pptx) from markdown sources.\n

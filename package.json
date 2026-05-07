@@ -1,0 +1,23 @@
+{
+  "name": "arabic-thesis-template",
+  "version": "1.0.0",
+  "description": "Template for generating Arabic RTL academic documents and presentations",
+  "main": "index.js",
+  "scripts": {
+    "extract-sources": "python extract_sources.py",
+    "extract-images": "python .agents/scripts/extract_images.py",
+    "build:docx": "node build_docx.js",
+    "build:slides": "node Output/generate_slides.js",
+    "read-styles": "python read_styles.py"
+  },
+  "keywords": ["arabic", "rtl", "thesis", "docx", "pptx", "academic"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "^9.6.1",
+    "markdown-it": "^14.1.1",
+    "marked": "^18.0.2",
+    "pptxgenjs": "^4.0.1"
+  }
+}
